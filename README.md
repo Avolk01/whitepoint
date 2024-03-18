@@ -16,4 +16,4 @@
    npm run migration:run
 
 6. Start server
-   npm run start:dev
+    npm run start:dev
