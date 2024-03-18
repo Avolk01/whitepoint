@@ -15,7 +15,6 @@ export class ColorsApiService {
 
             return data.name.value;
         } catch (e) {
-            console.log(e);
             throw new HttpException(e.message, e.code);
         }
     }
