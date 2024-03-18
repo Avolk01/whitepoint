@@ -13,8 +13,6 @@ export class ColorsApiService {
 
             const { data } = await axios.get(`${this.API_URL}&hex=${hex}`);
 
-            console.log(data);
-
             return data.name.value;
         } catch (e) {
             console.log(e);
